@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo 1</title>
+    <style> 
+
+        table, th,td{
+            border: 1px double black;
+        }
+        thead{
+            font-weight: bold;
+        }
+
+
+    </style>
+</head>
+<body>
+    <!-- Seccion principal de inicio -->
+    <header>
+       <h1>Encabezado Principal</h1>
+        <nav>
+            <ul>
+                <li>Ir a sección <a href="#Encabezados">Encabezados</a></li>
+                <li>Ir a sección <a href="#Encabezados">Encabezados</a></li>
+                <li>Ir a sección <a href="#Divisiones">Divisiones</a></li>
+                <li>Ir a sección <a href="#Multimedia">Multimedia</a></li>
+                <li>Ir a sección <a href="#Tabla">Tabla</a></li>
+                <li>Ir a sección <a href="#Formulario">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Sección de encabezados -->
+   <main>
+    <section id="Estructura">
+    <h2>1. Estructura Básica del Documento HTML</h2>
+    <p>Este documento HTML. tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título.</p>
+    </section>
+    
+    <section id="Encabezados">
+        <h2>2. Encabezados y Propiedades del Texto</h2>
+        <h3><strong>Esto es un texto en negrita</strong></h3>
+        <h4><em>Esto es un texto en cursiva</em></h4>
+        <h5><u>Esto es un texto subrayado</u></h5>
+        <h6><a href="https://www.youtube.com/@ColmenaTEC">Este texto contiene un link a ColmenaTEC</a></h6>
+    </section>
+    <!-- Sección de divisiones -->
+    <section id="Divisiones">
+        <h2>3. Divisiones y Agrupación de Contenido</h2>
+        <div>
+            <h3>Sección 1</h3>
+            <p>Contenido de la primera sección agrupada en un div</p>
+        </div>
+        <div>
+            <h3>Sección 2</h3>
+            <p>Contenido de la segunda sección agrupada en un div</p>
+        </div>
+    </section>
+    <!-- Sección de Lista -->
+    <section id="Lista">
+        <p>Visita nuestro <a href="https://www.youtube.com/@ColmenaTEC">sitio web</a> para más información</p>
+    </section>
+        <!-- Sección de multimedia -->
+    <section id="Multimedia">
+        <h2>4. Multimedia</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF1IwK6-SxM83UpFVY6WtUZxXx-phss_gAUfdKbkTfau6VWVkt" alt="Imagen de in gato mirando a la pantalla" width="200" height="200">
+       <!-- Me pareció importante tambien insertar un video desde youtube ya que éste se logra de manera diferente -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/paSRDHaUiRA?si=UY8Sy7So6jfhjXwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <video src="https://cdn.pixabay.com/video/2023/10/22/186115-877653483_large.mp4" width="650" height="350" controls>El video no ha podido cargar</video>
+        <audio src="Recursos/Prueba.mp3" controls>El audio no puede reproducirse</audio>
+    </section>
+   <Section id="Tabla">
+    <h2>5. Tablas</h2>
+    <table>
+        <thead>
+            <tr>
+                <td>Columna 1</td>
+                <td>Columna 2</td>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dato1</td>
+                <td>Dato2</td>
+            </tr>
+            <tr>
+                <td>Dato3</td>
+                <td>Dato4</td>
+            </tr>
+        </tbody>
+    </table>
+   </Section>
+    <section id="Formulario">
+        <h2>6. Formulario</h2>
+        <form >
+            <label >Nombre: </label>
+            <input type="text" placeholder="Ingrese su nombre">
+            <label >Email: </label>
+            <input type="email" placeholder="ejemplo@ejemplo.com">
+            <label >Mensaje: </label>
+            <textarea placeholder="Escriba aquí..."></textarea>
+        </form>
+    </section>
+
+   </main>
+    
+</body>
+</html>
